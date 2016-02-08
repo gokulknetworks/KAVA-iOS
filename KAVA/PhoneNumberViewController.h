@@ -10,7 +10,7 @@
 
 @interface PhoneNumberViewController : ViewController<UITextFieldDelegate>
 {
-    UIBarButtonItem *barBtnDone; 
+    UIBarButtonItem *barBtnDone,*dbdb;
 }
 @property (weak, nonatomic) IBOutlet UITextField *txtCountryName;
 @property (weak, nonatomic) IBOutlet UITextField *txtCountryCode;
