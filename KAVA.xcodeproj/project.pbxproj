@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D077F76E1C671ADE00659972 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D077F76D1C671ADE00659972 /* WelcomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D077F7701C671D6300659972 /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D077F76F1C671D6300659972 /* menu-button@2x.png */; settings = {ASSET_TAGS = (); }; };
+		D090C5FE1C63801D0010470B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D090C5FD1C63801D0010470B /* main.m */; };
+		D090C6011C63801D0010470B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D090C6001C63801D0010470B /* AppDelegate.m */; };
+		D090C6041C63801D0010470B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D090C6031C63801D0010470B /* ViewController.m */; };
+		D090C6071C63801D0010470B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D090C6051C63801D0010470B /* Main.storyboard */; };
+		D090C60A1C63801D0010470B /* KAVA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D090C6081C63801D0010470B /* KAVA.xcdatamodeld */; };
+		D090C60C1C63801D0010470B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D090C60B1C63801D0010470B /* Assets.xcassets */; };
+		D090C60F1C63801D0010470B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D090C60D1C63801D0010470B /* LaunchScreen.storyboard */; };
+		D090C61A1C63801E0010470B /* KAVATests.m in Sources */ = {isa = PBXBuildFile; fileRef = D090C6191C63801E0010470B /* KAVATests.m */; };
+		D090C6251C63801E0010470B /* KAVAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D090C6241C63801E0010470B /* KAVAUITests.m */; };
+		D090C6571C6392F10010470B /* DEMOLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D090C64E1C6392F10010470B /* DEMOLeftMenuViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D090C6581C6392F10010470B /* DEMORootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D090C6501C6392F10010470B /* DEMORootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D090C6591C6392F10010470B /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D090C6521C6392F10010470B /* RECommonFunctions.m */; settings = {ASSET_TAGS = (); }; };
+		D090C65A1C6392F10010470B /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D090C6541C6392F10010470B /* RESideMenu.m */; settings = {ASSET_TAGS = (); }; };
+		D090C65B1C6392F10010470B /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D090C6561C6392F10010470B /* UIViewController+RESideMenu.m */; settings = {ASSET_TAGS = (); }; };
+		D090C65F1C6393980010470B /* ConfigurationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D090C65E1C6393980010470B /* ConfigurationController.m */; settings = {ASSET_TAGS = (); }; };
+		D0D999551C64B0BD006D4617 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D999541C64B0BC006D4617 /* header.png */; settings = {ASSET_TAGS = (); }; };
+		D0D999581C64B220006D4617 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D999571C64B220006D4617 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D0D9995A1C64B2F5006D4617 /* backgroundImg.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D999591C64B2F5006D4617 /* backgroundImg.png */; settings = {ASSET_TAGS = (); }; };
+		D0D9995D1C64B46F006D4617 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D9995C1C64B46F006D4617 /* SignUpViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D0D999641C64CF35006D4617 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D999611C64CF35006D4617 /* TPKeyboardAvoidingScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		D0D999651C64CF35006D4617 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D999631C64CF35006D4617 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		D0E4A2131C6660DB0066F6B0 /* PhoneNoVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E4A2121C6660DB0066F6B0 /* PhoneNoVerifyViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D0F805F61C66195400EED34B /* PhoneNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F805F51C66195400EED34B /* PhoneNumberViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D090C6161C63801E0010470B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D090C5F11C63801D0010470B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D090C5F81C63801D0010470B;
+			remoteInfo = KAVA;
+		};
+		D090C6211C63801E0010470B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D090C5F11C63801D0010470B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D090C5F81C63801D0010470B;
+			remoteInfo = KAVA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D077F76C1C671ADE00659972 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		D077F76D1C671ADE00659972 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		D077F76F1C671D6300659972 /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
+		D090C5F91C63801D0010470B /* KAVA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAVA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D090C5FD1C63801D0010470B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D090C5FF1C63801D0010470B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D090C6001C63801D0010470B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D090C6021C63801D0010470B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D090C6031C63801D0010470B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D090C6061C63801D0010470B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D090C6091C63801D0010470B /* KAVA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KAVA.xcdatamodel; sourceTree = "<group>"; };
+		D090C60B1C63801D0010470B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D090C60E1C63801D0010470B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D090C6101C63801D0010470B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D090C6151C63801E0010470B /* KAVATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAVATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D090C6191C63801E0010470B /* KAVATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAVATests.m; sourceTree = "<group>"; };
+		D090C61B1C63801E0010470B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D090C6201C63801E0010470B /* KAVAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAVAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D090C6241C63801E0010470B /* KAVAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAVAUITests.m; sourceTree = "<group>"; };
+		D090C6261C63801E0010470B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D090C64D1C6392F10010470B /* DEMOLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOLeftMenuViewController.h; sourceTree = "<group>"; };
+		D090C64E1C6392F10010470B /* DEMOLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOLeftMenuViewController.m; sourceTree = "<group>"; };
+		D090C64F1C6392F10010470B /* DEMORootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMORootViewController.h; sourceTree = "<group>"; };
+		D090C6501C6392F10010470B /* DEMORootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMORootViewController.m; sourceTree = "<group>"; };
+		D090C6511C6392F10010470B /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		D090C6521C6392F10010470B /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		D090C6531C6392F10010470B /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		D090C6541C6392F10010470B /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		D090C6551C6392F10010470B /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		D090C6561C6392F10010470B /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		D090C65D1C6393980010470B /* ConfigurationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationController.h; sourceTree = "<group>"; };
+		D090C65E1C6393980010470B /* ConfigurationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationController.m; sourceTree = "<group>"; };
+		D0D999541C64B0BC006D4617 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		D0D999561C64B220006D4617 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D0D999571C64B220006D4617 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D0D999591C64B2F5006D4617 /* backgroundImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundImg.png; sourceTree = "<group>"; };
+		D0D9995B1C64B46F006D4617 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		D0D9995C1C64B46F006D4617 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		D0D999601C64CF35006D4617 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		D0D999611C64CF35006D4617 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		D0D999621C64CF35006D4617 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		D0D999631C64CF35006D4617 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		D0E4A2111C6660DB0066F6B0 /* PhoneNoVerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNoVerifyViewController.h; sourceTree = "<group>"; };
+		D0E4A2121C6660DB0066F6B0 /* PhoneNoVerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNoVerifyViewController.m; sourceTree = "<group>"; };
+		D0F805F41C66195400EED34B /* PhoneNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberViewController.h; sourceTree = "<group>"; };
+		D0F805F51C66195400EED34B /* PhoneNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D090C5F61C63801D0010470B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D090C6121C63801E0010470B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D090C61D1C63801E0010470B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D090C5F01C63801D0010470B = {
+			isa = PBXGroup;
+			children = (
+				D090C5FB1C63801D0010470B /* KAVA */,
+				D090C6181C63801E0010470B /* KAVATests */,
+				D090C6231C63801E0010470B /* KAVAUITests */,
+				D090C5FA1C63801D0010470B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D090C5FA1C63801D0010470B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D090C5F91C63801D0010470B /* KAVA.app */,
+				D090C6151C63801E0010470B /* KAVATests.xctest */,
+				D090C6201C63801E0010470B /* KAVAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D090C5FB1C63801D0010470B /* KAVA */ = {
+			isa = PBXGroup;
+			children = (
+				D0D9995F1C64CF21006D4617 /* Keyboard Avoiding Scroll */,
+				D090C65C1C6393500010470B /* SIngletonClass */,
+				D090C64C1C6392A50010470B /* RESideMenu */,
+				D090C5FF1C63801D0010470B /* AppDelegate.h */,
+				D090C6001C63801D0010470B /* AppDelegate.m */,
+				D090C6021C63801D0010470B /* ViewController.h */,
+				D090C6031C63801D0010470B /* ViewController.m */,
+				D0D999561C64B220006D4617 /* LoginViewController.h */,
+				D0D999571C64B220006D4617 /* LoginViewController.m */,
+				D0D9995B1C64B46F006D4617 /* SignUpViewController.h */,
+				D0D9995C1C64B46F006D4617 /* SignUpViewController.m */,
+				D0F805F41C66195400EED34B /* PhoneNumberViewController.h */,
+				D0F805F51C66195400EED34B /* PhoneNumberViewController.m */,
+				D0E4A2111C6660DB0066F6B0 /* PhoneNoVerifyViewController.h */,
+				D0E4A2121C6660DB0066F6B0 /* PhoneNoVerifyViewController.m */,
+				D077F76C1C671ADE00659972 /* WelcomeViewController.h */,
+				D077F76D1C671ADE00659972 /* WelcomeViewController.m */,
+				D090C6051C63801D0010470B /* Main.storyboard */,
+				D090C60B1C63801D0010470B /* Assets.xcassets */,
+				D090C60D1C63801D0010470B /* LaunchScreen.storyboard */,
+				D090C6101C63801D0010470B /* Info.plist */,
+				D090C6081C63801D0010470B /* KAVA.xcdatamodeld */,
+				D090C5FC1C63801D0010470B /* Supporting Files */,
+			);
+			path = KAVA;
+			sourceTree = "<group>";
+		};
+		D090C5FC1C63801D0010470B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0D999531C64B0AF006D4617 /* Images */,
+				D090C5FD1C63801D0010470B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D090C6181C63801E0010470B /* KAVATests */ = {
+			isa = PBXGroup;
+			children = (
+				D090C6191C63801E0010470B /* KAVATests.m */,
+				D090C61B1C63801E0010470B /* Info.plist */,
+			);
+			path = KAVATests;
+			sourceTree = "<group>";
+		};
+		D090C6231C63801E0010470B /* KAVAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D090C6241C63801E0010470B /* KAVAUITests.m */,
+				D090C6261C63801E0010470B /* Info.plist */,
+			);
+			path = KAVAUITests;
+			sourceTree = "<group>";
+		};
+		D090C64C1C6392A50010470B /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D090C64D1C6392F10010470B /* DEMOLeftMenuViewController.h */,
+				D090C64E1C6392F10010470B /* DEMOLeftMenuViewController.m */,
+				D090C64F1C6392F10010470B /* DEMORootViewController.h */,
+				D090C6501C6392F10010470B /* DEMORootViewController.m */,
+				D090C6511C6392F10010470B /* RECommonFunctions.h */,
+				D090C6521C6392F10010470B /* RECommonFunctions.m */,
+				D090C6531C6392F10010470B /* RESideMenu.h */,
+				D090C6541C6392F10010470B /* RESideMenu.m */,
+				D090C6551C6392F10010470B /* UIViewController+RESideMenu.h */,
+				D090C6561C6392F10010470B /* UIViewController+RESideMenu.m */,
+			);
+			name = RESideMenu;
+			sourceTree = "<group>";
+		};
+		D090C65C1C6393500010470B /* SIngletonClass */ = {
+			isa = PBXGroup;
+			children = (
+				D090C65D1C6393980010470B /* ConfigurationController.h */,
+				D090C65E1C6393980010470B /* ConfigurationController.m */,
+			);
+			name = SIngletonClass;
+			sourceTree = "<group>";
+		};
+		D0D999531C64B0AF006D4617 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D0D999591C64B2F5006D4617 /* backgroundImg.png */,
+				D077F76F1C671D6300659972 /* menu-button@2x.png */,
+				D0D999541C64B0BC006D4617 /* header.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D0D9995F1C64CF21006D4617 /* Keyboard Avoiding Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				D0D999601C64CF35006D4617 /* TPKeyboardAvoidingScrollView.h */,
+				D0D999611C64CF35006D4617 /* TPKeyboardAvoidingScrollView.m */,
+				D0D999621C64CF35006D4617 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				D0D999631C64CF35006D4617 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = "Keyboard Avoiding Scroll";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D090C5F81C63801D0010470B /* KAVA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D090C6291C63801E0010470B /* Build configuration list for PBXNativeTarget "KAVA" */;
+			buildPhases = (
+				D090C5F51C63801D0010470B /* Sources */,
+				D090C5F61C63801D0010470B /* Frameworks */,
+				D090C5F71C63801D0010470B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KAVA;
+			productName = KAVA;
+			productReference = D090C5F91C63801D0010470B /* KAVA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D090C6141C63801E0010470B /* KAVATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D090C62C1C63801E0010470B /* Build configuration list for PBXNativeTarget "KAVATests" */;
+			buildPhases = (
+				D090C6111C63801E0010470B /* Sources */,
+				D090C6121C63801E0010470B /* Frameworks */,
+				D090C6131C63801E0010470B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D090C6171C63801E0010470B /* PBXTargetDependency */,
+			);
+			name = KAVATests;
+			productName = KAVATests;
+			productReference = D090C6151C63801E0010470B /* KAVATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D090C61F1C63801E0010470B /* KAVAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D090C62F1C63801E0010470B /* Build configuration list for PBXNativeTarget "KAVAUITests" */;
+			buildPhases = (
+				D090C61C1C63801E0010470B /* Sources */,
+				D090C61D1C63801E0010470B /* Frameworks */,
+				D090C61E1C63801E0010470B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D090C6221C63801E0010470B /* PBXTargetDependency */,
+			);
+			name = KAVAUITests;
+			productName = KAVAUITests;
+			productReference = D090C6201C63801E0010470B /* KAVAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D090C5F11C63801D0010470B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "KNET-MACPRO2";
+				TargetAttributes = {
+					D090C5F81C63801D0010470B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D090C6141C63801E0010470B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D090C5F81C63801D0010470B;
+					};
+					D090C61F1C63801E0010470B = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D090C5F81C63801D0010470B;
+					};
+				};
+			};
+			buildConfigurationList = D090C5F41C63801D0010470B /* Build configuration list for PBXProject "KAVA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D090C5F01C63801D0010470B;
+			productRefGroup = D090C5FA1C63801D0010470B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D090C5F81C63801D0010470B /* KAVA */,
+				D090C6141C63801E0010470B /* KAVATests */,
+				D090C61F1C63801E0010470B /* KAVAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D090C5F71C63801D0010470B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D090C60F1C63801D0010470B /* LaunchScreen.storyboard in Resources */,
+				D0D9995A1C64B2F5006D4617 /* backgroundImg.png in Resources */,
+				D090C60C1C63801D0010470B /* Assets.xcassets in Resources */,
+				D0D999551C64B0BD006D4617 /* header.png in Resources */,
+				D090C6071C63801D0010470B /* Main.storyboard in Resources */,
+				D077F7701C671D6300659972 /* menu-button@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D090C6131C63801E0010470B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D090C61E1C63801E0010470B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D090C5F51C63801D0010470B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F805F61C66195400EED34B /* PhoneNumberViewController.m in Sources */,
+				D0D999641C64CF35006D4617 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				D090C65F1C6393980010470B /* ConfigurationController.m in Sources */,
+				D0E4A2131C6660DB0066F6B0 /* PhoneNoVerifyViewController.m in Sources */,
+				D090C65A1C6392F10010470B /* RESideMenu.m in Sources */,
+				D0D999651C64CF35006D4617 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				D0D9995D1C64B46F006D4617 /* SignUpViewController.m in Sources */,
+				D090C6571C6392F10010470B /* DEMOLeftMenuViewController.m in Sources */,
+				D090C60A1C63801D0010470B /* KAVA.xcdatamodeld in Sources */,
+				D090C6041C63801D0010470B /* ViewController.m in Sources */,
+				D090C6011C63801D0010470B /* AppDelegate.m in Sources */,
+				D090C5FE1C63801D0010470B /* main.m in Sources */,
+				D090C6581C6392F10010470B /* DEMORootViewController.m in Sources */,
+				D077F76E1C671ADE00659972 /* WelcomeViewController.m in Sources */,
+				D090C6591C6392F10010470B /* RECommonFunctions.m in Sources */,
+				D0D999581C64B220006D4617 /* LoginViewController.m in Sources */,
+				D090C65B1C6392F10010470B /* UIViewController+RESideMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D090C6111C63801E0010470B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D090C61A1C63801E0010470B /* KAVATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D090C61C1C63801E0010470B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D090C6251C63801E0010470B /* KAVAUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D090C6171C63801E0010470B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D090C5F81C63801D0010470B /* KAVA */;
+			targetProxy = D090C6161C63801E0010470B /* PBXContainerItemProxy */;
+		};
+		D090C6221C63801E0010470B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D090C5F81C63801D0010470B /* KAVA */;
+			targetProxy = D090C6211C63801E0010470B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D090C6051C63801D0010470B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D090C6061C63801D0010470B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D090C60D1C63801D0010470B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D090C60E1C63801D0010470B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D090C6271C63801E0010470B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D090C6281C63801E0010470B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D090C62A1C63801E0010470B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KAVA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KAVA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D090C62B1C63801E0010470B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KAVA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KAVA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D090C62D1C63801E0010470B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KAVATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KAVATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAVA.app/KAVA";
+			};
+			name = Debug;
+		};
+		D090C62E1C63801E0010470B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KAVATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KAVATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KAVA.app/KAVA";
+			};
+			name = Release;
+		};
+		D090C6301C63801E0010470B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KAVAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KAVAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KAVA;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D090C6311C63801E0010470B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KAVAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KAVAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KAVA;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D090C5F41C63801D0010470B /* Build configuration list for PBXProject "KAVA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D090C6271C63801E0010470B /* Debug */,
+				D090C6281C63801E0010470B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D090C6291C63801E0010470B /* Build configuration list for PBXNativeTarget "KAVA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D090C62A1C63801E0010470B /* Debug */,
+				D090C62B1C63801E0010470B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D090C62C1C63801E0010470B /* Build configuration list for PBXNativeTarget "KAVATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D090C62D1C63801E0010470B /* Debug */,
+				D090C62E1C63801E0010470B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D090C62F1C63801E0010470B /* Build configuration list for PBXNativeTarget "KAVAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D090C6301C63801E0010470B /* Debug */,
+				D090C6311C63801E0010470B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D090C6081C63801D0010470B /* KAVA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D090C6091C63801D0010470B /* KAVA.xcdatamodel */,
+			);
+			currentVersion = D090C6091C63801D0010470B /* KAVA.xcdatamodel */;
+			path = KAVA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D090C5F11C63801D0010470B /* Project object */;
+}
